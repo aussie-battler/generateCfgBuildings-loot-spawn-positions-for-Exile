@@ -8,6 +8,10 @@ Paste the script into the code window of the debug tool in the editor.
 Press run local and wait a bit.
 Past text copied to the clipboard into any text editor.
 Update the table entries as you like.
+
+mainScript.sqf does the whole map.
+
+This does individual buildings on your cursor.
 ```
 hint str [getModelInfo cursorObject, typeOf cursorObject];
 copyToClipboard str [getModelInfo cursorObject, typeOf cursorObject];
